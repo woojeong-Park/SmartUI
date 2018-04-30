@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#box{
+    width: 450px; height: 600px; border-style: solid;
+    margin-left: calc(50% - 225px);
+    margin-top: 50px;
+}
+#inner{
+    margin-top: 50px; margin-left: 40px; margin-right: 40px;
+    margin-bottom: 50px; width: 370px; height: 450px;
+
+}
+#login1{
+    margin-top: 16px; margin-bottom: 0px; font-size: 25px;
+}
+.inputid{
+    margin: 40px 0px 0px 0px; width: 370px; height: 24px;
+    font-size: 15px; border-style: none; border-bottom-style: solid;
+    border-color: gainsboro; border-width: 1px;
+}
+a{
+    text-decoration: none; color: dodgerblue;
+}
+
+#accountid{
+    margin: 20px 0px 0px 0px; font-size: 15px;
+}
+#loginbutton{
+    border-style: none; font-size: 15px; font-weight: bold;
+    color: white; background-color: dodgerblue; border-radius: 2px; margin: 0 0 0 220px;
+
+}
