@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+body{
+    background-color: gainsboro;
+}
+#box{
+    width: 750px;
+    height: 551px;
+    margin-top: calc(50% - 585px);
+    margin-left: calc(50% - 375px);
+    background-color: white;
+    border-style: none;
+    border-color: grey;
+    box-shadow: 0 0 6px grey;
+
+}
+
+#inner{
+    padding: 48px 40px 36px 40px;
+    width: 670px;
+    height: 407px;
+}
+
+#leftbox{
+    display: inline-block;
+    width: 370px;
+    height: 464px;
+    padding: 0;
+    margin : 0;
+
+}
+
+#anotherbox{
+    display: inline-block;
+
+
+}
+
+#logo{
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+
+}
+
+.ggtext{
+    display: inline-block;
+    width: 370px;
+    height: 73px;
+}
+
+h1{
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0px;
+    padding: 16px 0px 0px 0px;
+
+}
+
+#text2{
+    font-size: 15px;
+    margin: 0px;
+    padding: 1px 0px 3px 0px
+}
+
+#name{
+    width: 370px;
+    height: 344px;
+    padding: 24px 0px 0px 0px;
+}
+
+#info{
+
+    height: 264px;
+    width: 370px;
+}
+
+#family{
+    height: 76.8px;
+    width: 370px;
+}
+
+#writename{
+    width: 177px;
+    height: 40px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+    font-size: 15px;
+    padding: 24px 0px 0px 0px;
+    
+}
+#writename2{
+    width: 177px;
+    height: 40px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+    font-size: 15px;
+    padding: 24px 0px 0px 0px;
+    
+}
+
+#idbox{
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+}
+#username{
+    width: 270px;
+    height:40px;
+    border-style: none;
+    font-size: 15px;
+    padding: 24px 0px 0px 0px;
+}
+
+.gmail{
+    display: inline-block;
+    border-style: none;
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+#manual1{
+    font-size: 13px;
+    height: 25px;
+    white-space: normal;
+    margin: 5px 0px 0px 0px;
+}
+
+#writepass{
+    width: 153px;
+    height: 40px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+    font-size: 15px;
+    padding: 24px 0px 0px 0px;
+    
+}
+
+#writepass2{
+    width: 153px;
+    height: 40px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+    font-size: 15px;
+    padding: 24px 0px 0px 0px;
+    
+}
+
+#manual2{
+    font-size: 12px;
+    margin: 5px 0px 0px 0px;
+}
+
+#etc{
+    margin: 32px 0px 0px 0px;
+    width: 370px;
+    height: 48px;
+    font-size: 14px;
+}
+
+.altlogin{
+    text-decoration: none; color: dodgerblue;
+    padding: 6px 0px 6px 0px;
+}
+
+#next{
+    width: 88px;
+    height: 36px;
+    margin: 0px 0px 0px 173px;
+    border-style: none; font-size: 15px; font-weight: bold;
+    color: white; background-color: #4285f4; border-radius: 3px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+input:focus{
+    border-style: none;
+}
+
+.baseimg{
+    position: absolute;
+    top:300px;
+    left: calc(50% + 100px;)
+}
